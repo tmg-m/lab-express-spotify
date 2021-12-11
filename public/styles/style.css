@@ -1,0 +1,81 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+/* Home page */
+main {
+    height: 100vh;
+}
+
+.initial-container {
+    background-image: url(/images/spotify-background.jpeg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#initial {
+    background-color: rgba(255, 255, 255, 0.523);
+    padding: 50px 200px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form > input {
+    height: 40px;
+    width: 200%;
+    padding: 0px 15px;
+    border: none;
+}
+
+form > button {
+    border: none;
+    padding: 15px 40px;
+    background-color: rgb(254, 99, 99);
+    color: white;
+}
+
+
+/* Artist page */
+.artist-container {
+    display: flex;
+    padding-top: 40px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.artist-results {
+    display: flex;
+    padding-top: 50px;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 150px;
+}
+
+.artists {
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+p,a {
+    font-size: 1.6rem;
+}
+
+/* Album page */
